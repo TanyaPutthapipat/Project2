@@ -1,0 +1,146 @@
+*{
+	box-sizing: border-box; 
+	/* This makes the widths of elements more consistent
+		Full details here https://css-tricks.com/box-sizing/ */
+}
+
+body {
+    margin: 0px; /* Often browsers have a 5px margin by deafult*/
+    font-family: sans-serif;
+    background-color: #fbf8f1;
+}
+
+section{
+	max-width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+
+nav {
+    width: 1000%;
+    height: 70px;
+    background-color: #887322;
+    padding: 0px, 100px, 50px, 0px;
+
+   
+}
+
+.topNav{
+	position: relative;
+  	overflow: hidden;
+
+
+}
+
+.centerNav {
+    float: none;
+    position: absolute;
+    top: 3%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fbf8f1;
+}
+
+
+
+
+header {
+    background-image: url("img/city.jpg");
+    background-color: #dec25e;
+    color: white; /* more readable on an orange background */
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+h1{
+	font-size: 50px;
+}
+
+h2{
+	font-size: 35px;
+}
+
+h3 {
+    font-size: 25px;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+
+hr {
+    border-color: #eee9d3;
+}
+
+
+
+
+nav a, nav h3 {
+    float: left;
+    margin: 0px;
+    line-height: 60px;
+    margin-left: 1em;
+    margin-right: 1em;
+    text-decoration: none;
+    color: #dddad1;
+}
+
+nav a:hover{
+	text-decoration: underline; /* Hover styles to let people know they can click it */
+}
+
+
+#busSize{
+	width: 500px;
+
+}
+
+
+
+/* Simple grid */
+.g-row{
+	width: 100%;
+	overflow: hidden;
+}
+
+.g-row img{
+	width: 100%; /*This makes all images in grids to be the size of their cell */
+}
+
+.g-50{
+	width: 50%;
+	float: left;
+}
+
+.g-30{
+	width: 30%;
+	float: left;
+}
+
+.g-70{
+	width: 70%;
+	float: left;
+}
+
+.show{
+	border: 1px solid blue;
+	padding: 2px;
+}
+
+.padded{
+	padding: 20px; /* I add this to cells to add a little padding*/
+}
+
+
+
+
+footer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #887322;
+}
+
+
+
